@@ -1,0 +1,148 @@
+@media screen and (max-width: 300px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding-inline: 15px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .navbar .container {
+        flex-direction: column;
+        row-gap: 6px;
+        padding: 5px 5px;
+    }
+
+    .navbar .nav-links a {
+        padding: 5px;
+    }
+
+    .header .container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .header .container .header-img {
+        width: 100%;
+    }
+
+    .header .container .header-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .chefs .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .gallery .gallery-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact .boxes {
+        flex-direction: column;
+    }
+
+    .contact .boxes .box {
+        width: 100%
+    }
+
+    .contact form .input-group {
+        flex-direction: column;
+
+    }
+
+    .contact .input-group input {
+        width: 100%
+    }
+
+    .footer .boxes {
+        flex-direction: column;
+    }
+
+    .footer .boxes .box {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .navbar .container {
+        row-gap: 3px;
+    }
+
+    .header-content .btn-group {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .header .btn-main {
+        border-radius: 100vh;
+    }
+
+    .subscribe-box .form-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .subscribe-box .form-group .graw {
+        flex-grow: 1;
+    }
+
+    .subscribe-box .form-group .graw input {
+
+        padding: 0.625rem;
+    }
+
+    .subscribe-box .quick-links ul {
+        padding: 0px;
+    }
+}
