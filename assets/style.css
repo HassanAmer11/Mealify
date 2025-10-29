@@ -26,6 +26,9 @@
     --animation-duration: 400ms;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /*^  Global Tag Styles */
 *,
@@ -839,6 +842,7 @@ ul.social-links {
 }
 
 .subscribe-box .quick-links ul .link::before {
-    content: ">";
+    content: "\f105";
+    font: var(--fa-font-solid);
     margin-right: 5px;
 }
