@@ -50,7 +50,8 @@
     }
 
     .navbar .nav-links a {
-        padding: 5px;
+        padding-inline: 5px;
+        padding-block: 0px;
     }
 
     .header .container {
@@ -110,6 +111,10 @@
     .footer .boxes .box {
         width: 100%
     }
+
+    .mode-group {
+        margin-top: 5px
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -145,4 +150,5 @@
     .subscribe-box .quick-links ul {
         padding: 0px;
     }
+
 }
